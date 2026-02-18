@@ -13,9 +13,21 @@
 
 ## Usage
 
-1. Copy the contents of the flavor of your choice in `themes/`.
-2. Open `FPilot-Config.json` located at `C:\Users\%USERPROFILE%\AppData\Roaming\Voidstar\FilePilot`
-3. Append the copied flavor to the end of the `"Color"` section
+1. Press `Win + R`, paste `%AppData%\Voidstar\FilePilot\FPilot-Config.json` into the box, and press Enter. This will open the config file in your default text editor
+2. Locate the closing brace `}` of the `"Options"` section. Insert a comma and then add the `"Colors"` key as shown below:
+```json
+    "Options": {
+        ...
+    },
+    "Colors": [
+        // theme data go here
+    ],
+    "Hotkeys": {
+        ...
+    }
+```
+3. Browse the `themes/` folder in this repository. Open your preferred theme `.json` file, copy its entire contents, and paste them inside the square brackets `[]` of the `"Colors"` section you just created, then save the file
+4. Your new theme should now appear in the `Light/Dark Color Scheme` dropdown menu inside `Options (Ctrl+,)`
 
 ## Gallery
 
