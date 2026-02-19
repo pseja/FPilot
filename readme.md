@@ -13,7 +13,7 @@
 
 ## Usage
 
-1. Press `Win + R`, paste `%AppData%\Voidstar\FilePilot\FPilot-Config.json` into the box, and press Enter. This will open the config file in your default text editor
+1. Open File Explorer, paste `%AppData%\Voidstar\FilePilot\` into the address bar, and press Enter. Then, right-click `FPilot-Config.json` and open it with your preferred text editor
 2. Locate the closing brace `}` of the `"Options"` section. Insert a comma and then add the `"Colors"` key as shown below:
 ```json
     "Options": {
